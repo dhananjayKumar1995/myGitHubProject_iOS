@@ -135,7 +135,7 @@ extension ViewController{
 }
 
 extension Bool{
-    
+    //nothing
     mutating func toggleWithReturnValue() -> Bool{
         self = self ? false : true
         return self
