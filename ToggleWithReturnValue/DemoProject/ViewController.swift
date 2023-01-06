@@ -96,26 +96,6 @@ extension ViewController{
     }
 }
 
-class TabBarController: UITabBarController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Create the view controllers for the tab bar
-        let vc1 = UIViewController()
-        vc1.view.backgroundColor = .red
-        vc1.tabBarItem = UITabBarItem(title: "VC1", image: nil, selectedImage: nil)
-
-        let vc2 = UIViewController()
-        vc2.view.backgroundColor = .green
-        vc2.tabBarItem = UITabBarItem(title: "VC2", image: nil, selectedImage: nil)
-
-        // Set the view controllers for the tab bar
-        self.viewControllers = [vc1, vc2]
-    }
-
-}
-
 extension ViewController{
    func toggleDemo(){
         let demoButton = UIButton()
